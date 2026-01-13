@@ -6,14 +6,15 @@ __pycache__/
 # Node
 node_modules/
 dist/
-
-# Vite
 dashboard/dist/
+dashboard/node_modules/
 
 # Env
 .env
+dashboard/.env
+api/.env
 
-# SQLite
+# Databases
 *.db
 *.sqlite
 
