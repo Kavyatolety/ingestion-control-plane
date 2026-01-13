@@ -58,8 +58,6 @@ Python Worker
 
 ## ⚙️ Run Locally
 
-### Start the API
-```bash
 uvicorn api.main:app --reload
 
 ### Start the API
