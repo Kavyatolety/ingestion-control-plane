@@ -1,6 +1,6 @@
 # 🚀 Ingestion Control Plane
 
-A full-stack system for running, monitoring, and debugging data ingestion jobs — inspired by production data platforms used at companies like Stripe, Airbnb, and Databricks.
+A full-stack system for running, monitoring, and debugging data ingestion jobs inspired by production data platforms used at companies like Stripe, Airbnb, and Databricks.
 
 This project implements a **control-plane architecture** that manages:
 - Data sources
