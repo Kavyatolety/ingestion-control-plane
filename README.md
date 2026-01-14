@@ -35,8 +35,6 @@ Users can:
 React Dashboard  →  FastAPI Control Plane  →  SQLite DB
                             ↑
                         Python Worker
-
-
 ---
 
 ## 🔌 APIs
