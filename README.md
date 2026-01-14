@@ -32,13 +32,9 @@ Users can:
 
 ## 🏗 Architecture
 
-React Dashboard
-↓
-FastAPI Control Plane
-↓
-SQLite Database
-↑
-Python Worker
+React Dashboard  →  FastAPI Control Plane  →  SQLite DB
+                            ↑
+                        Python Worker
 
 
 ---
