@@ -53,17 +53,17 @@ Users can:
 
 ## ⚙️ Run Locally
 
-cd ~/ingestion-control-plane
-source .venv/bin/activate
-uvicorn api.main:app --reload
+     1) cd ~/ingestion-control-plane
+     2) source .venv/bin/activate
+     3)uvicorn api.main:app --reload
 
 ### Start the Worker
 
-python worker/worker.py
+     1) python worker/worker.py
 
 ### Start the dashboard
 
-cd ~/ingestion-control-plane/dashboard
-rm -rf node_modules/.vite
-npm run dev
+     1) cd ~/ingestion-control-plane/dashboard
+     2) rm -rf node_modules/.vite
+     3) npm run dev
 
