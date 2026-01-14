@@ -58,15 +58,17 @@ Python Worker
 
 ## ⚙️ Run Locally
 
+cd ~/ingestion-control-plane
+source .venv/bin/activate
 uvicorn api.main:app --reload
 
-### Start the API
+### Start the Worker
 
 python worker/worker.py
 
 ### Start the dashboard
 
-cd dashboard
-npm install
+cd ~/ingestion-control-plane/dashboard
+rm -rf node_modules/.vite
 npm run dev
 
