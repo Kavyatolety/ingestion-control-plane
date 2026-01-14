@@ -32,10 +32,11 @@ Users can:
 
 ## 🏗 Architecture
 
+---
+
 React Dashboard  →  FastAPI Control Plane  →  SQLite DB
                             ↑
                         Python Worker
----
 
 ## 🔌 APIs
 
